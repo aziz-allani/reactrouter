@@ -1,0 +1,79 @@
+.movie-add {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  margin: 2rem;
+}
+
+.MuiButton-root {
+  color: black;
+}
+
+.MuiToolbar-root {
+  background-color: black;
+}
+
+.MuiRating-icon {
+  color: #7eef13;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid #7eef13;
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 4px;
+}
+
+.MuiTypography-h6 {
+  color: #caff98;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.movie-desc-container {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  position: relative;
+  top: 40px;
+}
+
+.gap-container {
+  width: 20px;
+}
+
+.movie-buuton {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: aliceblue;
+}
+
+.movie-buuton .butoon-bag {
+  background-color: black;
+  color: #caff98;
+}
+
+.container-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 1200px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  top: 50px;
+}
+
+.MuiCardMedia-media {
+  width: 100%;
+  height: 518px;
+}
